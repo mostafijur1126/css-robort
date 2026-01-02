@@ -1,0 +1,84 @@
+
+header h1{
+    background-color: aqua;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.content-hade-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.man-had{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid black; */
+}
+.man-had img{
+    object-fit: cover;
+    height: 100%;
+}
+.content-body-part{
+    
+}
+.body-main{
+    border: 3px solid black;
+    height: 300px;
+     width: 250px;
+}
+.body-righr-hand{
+     height: 300PX;
+    width: 50px;
+    background-color: rgb(29, 138, 138);
+}
+.man-body{
+    display: flex;
+    justify-content: center;
+    gap: 10PX;
+}
+.lanth{
+    height: 200PX;
+    width: 50px;
+    border-radius: 20px 0 0 0;
+    border: 3px solid black;
+}
+.lanth-right{
+    height: 200PX;
+    width: 50px;
+    border-radius: 0 20px 0 0;
+    border: 3px solid black;
+}
+.shape{
+    width: 50PX;
+    height: 50PX;
+    border: 3px solid black;
+    border-radius: 50PX;
+}
+.content-footer-part{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.lag-laft{
+    height: 300px;
+    width: 70px;
+    border: 3px solid black;
+}
+.lag-right{
+    height: 300px;
+    border: 3px solid black;
+    width: 70px;
+}
+.footer{
+    text-align: center;
+    padding-top: 20px;
+}
+.footer p{
+    font-size: 30px;
+    font-weight: 600;
+}
